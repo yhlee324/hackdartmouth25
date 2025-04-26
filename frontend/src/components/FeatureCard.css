@@ -1,0 +1,33 @@
+/* Styles for the FeatureCard component */
+.feature-card {
+    border: 1px solid #ddd; /* Placeholder */
+    border-radius: 8px; /* Placeholder */
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Placeholder */
+    /* Add width/flex-basis if arranging in columns via parent */
+  }
+  
+  .feature-card .card-icon span {
+    /* Style the placeholder icon */
+    display: inline-block;
+    padding: 10px;
+    background-color: #007bff; /* Placeholder */
+    color: white;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  /* Style the icon image if you use one */
+  /* .feature-card .card-icon img { ... } */
+  
+  
+  .feature-card .card-title {
+    font-size: 1.2em; /* Placeholder */
+    margin-bottom: 10px;
+  }
+  
+  .feature-card .card-description {
+    font-size: 0.95em; /* Placeholder */
+    color: #555; /* Placeholder */
+  }
