@@ -1,38 +1,38 @@
-/* Styles for the Header component */
 .site-header {
-    background-color: #f8f9fa; /* Placeholder: Change to Figma color */
-    padding: 10px 0;
-    border-bottom: 1px solid #e7e7e7; /* Placeholder */
-  }
-  
-  .site-header .container {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space logo and nav */
-    align-items: center;
-    max-width: 1200px; /* Adjust as needed */
-    margin: 0 auto;
-    padding: 0 15px;
-  }
-  
-  .site-header .logo span {
-    font-size: 1.5em; /* Placeholder */
-    font-weight: bold;
-  }
-  
-  /* Add styles for logo image if you use one */
-  /* .site-header .logo img { ... } */
-  
-  .site-header .main-navigation ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Align nav items horizontally */
-    gap: 20px; /* Space between nav items */
-  }
-  
-  .site-header .main-navigation a {
-    text-decoration: none;
-    color: #333; /* Placeholder */
-  }
-  
-  /* Add hover styles, active styles etc. based on Figma */
+  background-color: #004B93; /* Placeholder: Change to Figma color */
+  color: white;
+  padding: 10px 0;
+  border-bottom: 1px solid #e7e7e7; /* Placeholder */
+  font-family: 'Baloo 2', cursive;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+.site-header h1 {
+font-size: 2em;
+font-weight: 700;
+margin: 0;
+}
+
+
+.tab-button {
+background-color: #B0D8F0;
+color: #063970;
+border: none;
+padding: 10px 25px;
+border-radius: 10px;
+font-weight: bold;
+cursor: pointer;
+font: size 32px;
+font-family: 'Baloo 2', cursive;
+} 
+
+
+.nav-right {
+display: flex;
+align-items: center;
+gap: 8px;
+}
