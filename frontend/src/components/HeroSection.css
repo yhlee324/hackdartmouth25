@@ -1,0 +1,47 @@
+/* Styles for the HeroSection component */
+.hero-section {
+    padding: 60px 0; /* Placeholder spacing */
+    text-align: center;
+    background-color: #e9ecef; /* Placeholder: Change or use background image */
+    /* Example for background image:
+    background-image: url('../../assets/images/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Adjust text color if using dark background */
+    
+  }
+  
+  .hero-section .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 15px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5em; /* Placeholder */
+    margin-bottom: 15px;
+  }
+  
+  .hero-section p {
+    font-size: 1.1em; /* Placeholder */
+    margin-bottom: 30px;
+  }
+  
+  .hero-section .cta-button {
+    padding: 12px 25px; /* Placeholder */
+    font-size: 1em;
+    background-color: #007bff; /* Placeholder */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Placeholder */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .hero-section .cta-button:hover {
+    background-color: #0056b3; /* Placeholder */
+  }
+  
+  /* Add styles if you use a foreground image */
+  /* .hero-section img { ... } */
+  
